@@ -5,6 +5,8 @@ while num >= 0:
         zero += 1
         if zero > 3:
              print("Só é permitido até 3 zeros consecutivos!!!")
+        elif ult_num == 0:
+            print("Não há números para apagar")
         else:
             soma_tot -= ult_num
             num_desc += 1
