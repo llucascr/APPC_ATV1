@@ -13,32 +13,7 @@ while num >= 0:
             num_cons -= 1
             ult_num = pen
             pen = anti_pen
-            anti_pen = 0
-        # if zero == 1:
-        #     soma_tot -= ult_num
-        #     num_desc += 1
-        #     num_cons -= 1
-        #     ult_num = pen
-        #     pen = anti_pen
-        #     anti_pen = 0
-        # elif zero == 2:
-        #     soma_tot -= ult_num
-        #     num_desc += 1
-        #     num_cons -= 1
-        #     ult_num = pen
-        #     pen = anti_pen
-        #     anti_pen = 0
-        # elif zero == 3:
-        #     soma_tot -= ult_num
-        #     num_desc += 1
-        #     num_cons -= 1
-        #     ult_num = pen
-        #     pen = anti_pen
-        #     anti_pen = 0
-        #     zero = 0     
-        # elif zero > 3:
-        #     print("Só é permitido até 3 zeros consecutivos!!!")
-        #     zero = 0           
+            anti_pen = 0         
     else:
         anti_pen = pen
         pen = ult_num
