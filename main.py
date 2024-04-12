@@ -4,7 +4,7 @@ while num >= 0:
     if num == 0:
         zero += 1
         if zero > 3:
-             print("Só é permitido até 3 zeros consecutivos!!!")
+            print("Só é permitido até 3 zeros consecutivos!!!")
         elif ult_num == 0:
             print("Não há números para apagar")
         else:
@@ -21,7 +21,6 @@ while num >= 0:
         soma_tot += num
         num_cons += 1
         zero = 0
-        
     num = int(input("Números: "))
 print(f"Soma = {soma_tot}")
 print(f"Números Considerados = {num_cons}")
